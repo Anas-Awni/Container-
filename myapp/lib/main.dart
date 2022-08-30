@@ -20,6 +20,9 @@ class MyApp extends StatelessWidget {
                 border: Border.all(
                     color: Colors.indigo,
                     width: 50), //change colors to indigo and make width fifty
+                borderRadius: BorderRadius.all(
+                  Radius.circular(50),
+                ),
                 boxShadow: [
                   BoxShadow(
                     color: Colors.yellow, // change to yellow
